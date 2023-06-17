@@ -16,7 +16,7 @@ async function robo() {
       console.log(`Acessando..`)
     }
     catch{
-      console.log(`Erro ao acessando..`)
+      console.log(`Erro ao acessar..`)
       await browser.close();
     }
   }
