@@ -9,7 +9,7 @@ async function robo() {
       headless: true
     });
     const page = await browser.newPage();
-    const qualquerUrl = `https://ranchtech4.wixsite.com/ranchtech/post/comunicação-empresarial`;
+    const qualquerUrl = `https://github.com/brunocesarfranco/brunocesarfranco`;
 
     try{
       await page.goto(qualquerUrl);
